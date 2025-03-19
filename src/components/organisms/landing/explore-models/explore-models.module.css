@@ -1,0 +1,42 @@
+.exploreModels {
+  display: flex;
+  justify-content: center;
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
+
+  .exploreModelsContainer {
+    max-width: calc(var(--max-width) - 96px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headingContainer {
+    max-width: 670px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 120px;
+
+    h2 {
+      font-weight: 300;
+    }
+  }
+
+  .modelsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-4);
+    width: 100%;
+  }
+
+  .filterContainer {
+    padding-top: 72px;
+    padding-bottom: 34px;
+    width: 100%;
+  }
+}

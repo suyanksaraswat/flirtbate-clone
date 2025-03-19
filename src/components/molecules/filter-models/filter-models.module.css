@@ -1,0 +1,14 @@
+.filterContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+  width: 100%;
+
+  .regionSelect {
+    width: 100%;
+  }
+
+  .onlineIcon {
+    color: rgb(121, 224, 40);
+  }
+}

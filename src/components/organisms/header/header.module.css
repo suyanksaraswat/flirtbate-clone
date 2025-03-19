@@ -1,0 +1,29 @@
+.header {
+  position: fixed;
+  z-index: 1100;
+  right: 0px;
+  top: 0px;
+  left: 0px;
+  color: var(--white-pure);
+  background-color: var(--header-bg);
+  display: flex;
+  justify-content: center;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-9);
+  padding: var(--spacing-3) var(--spacing-2_5);
+  max-width: var(--max-width);
+  width: 100%;
+}
+
+.searchBar {
+  width: 100%;
+}
+
+.searchText {
+  width: 100%;
+  text-align: left;
+}

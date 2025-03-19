@@ -1,0 +1,45 @@
+.selectContainer {
+  position: relative;
+
+  .selectBox {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--spacing-2);
+    align-items: center;
+    cursor: pointer;
+    padding: var(--spacing-2_5) var(--spacing-3);
+    background-color: var(--dark-grey);
+    color: var(--white-muted);
+    border-radius: var(--rounded-md);
+    border: 2px solid var(--dark-grey);
+  }
+
+  .selectBox:hover {
+    border: 2px solid var(--light-grey);
+  }
+
+  .activeSelectBox {
+    border: 2px solid var(--primary-bg);
+  }
+
+  .selectBoxText {
+    display: flex;
+    gap: var(--spacing-3);
+    align-items: center;
+  }
+
+  .optionContainer {
+    background-color: var(--background);
+    border-radius: var(--rounded-md);
+    position: absolute;
+    width: 100%;
+    padding-top: var(--spacing-2);
+    padding-bottom: var(--spacing-2);
+  }
+
+  .option {
+    cursor: pointer;
+    padding: var(--spacing-1_5) var(--spacing-4);
+    color: var(--white-muted);
+  }
+}

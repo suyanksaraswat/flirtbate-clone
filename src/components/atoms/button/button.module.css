@@ -1,0 +1,77 @@
+.outlinedButton {
+  background-color: transparent;
+  border: 1px solid var(--white-soft-border);
+  border-radius: var(--rounded-md);
+  padding: var(--spacing-3) var(--spacing-4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2);
+  color: var(--white-soft);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.filledButton {
+  background-color: var(--primary-bg);
+  border: 1px solid var(--white-soft-border);
+  border-radius: var(--rounded-md);
+  padding: var(--spacing-3) var(--spacing-4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2);
+  color: var(--primary);
+  font-weight: 500;
+  box-shadow: rgba(255, 104, 192, 0.48) 0px 0px 32px 8px;
+  cursor: pointer;
+}
+
+.filledButtonSecondary {
+  background-color: var(--dark-grey);
+  color: var(--white-muted);
+  border: 1px solid var(--dark-grey);
+  border-radius: var(--rounded-md);
+  padding: var(--spacing-3) var(--spacing-4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2);
+  font-weight: 500;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--background);
+    border: 1px solid var(--background);
+  }
+}
+
+.gradientButton {
+  background: linear-gradient(
+    90deg,
+    rgb(254, 205, 61),
+    rgb(255, 241, 198),
+    rgb(255, 104, 192)
+  );
+  box-shadow: rgba(255, 104, 192, 0.48) 0px 4px 10px;
+  border: 1px solid var(--white-soft-border);
+  border-radius: var(--rounded-md);
+  padding: var(--spacing-1_5) var(--spacing-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2);
+  color: var(--primary);
+  font-weight: 600;
+  max-width: 318px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.buttonText {
+  text-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-2);
+}
