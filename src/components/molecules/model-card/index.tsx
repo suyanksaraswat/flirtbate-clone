@@ -24,7 +24,7 @@ export default function ModelCard({
 
       <div className={styles.modelDetailsContainer}>
         <div className={styles.modelDetails}>
-          <h2>{username}</h2>
+          <h2 className={styles.modelUsername}>{username}</h2>
 
           <div className={styles.creditsContainer}>
             <Image src="/credit.webp" width={22} height={22} alt="" />

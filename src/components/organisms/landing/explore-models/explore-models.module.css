@@ -22,7 +22,7 @@
     gap: 16px;
     padding-top: 120px;
 
-    h2 {
+    .subheading {
       font-weight: 300;
     }
   }

@@ -18,7 +18,7 @@
     align-items: center;
     gap: var(--spacing-2);
 
-    h2 {
+    .modelUsername {
       font-weight: 500;
     }
 

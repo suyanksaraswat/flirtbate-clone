@@ -13,7 +13,9 @@ export default function ExploreModels() {
             world of diverse beauty and charm
           </h1>
 
-          <h2>Select the companion who aligns with your desires.</h2>
+          <h2 className={styles.subheading}>
+            Select the companion who aligns with your desires.
+          </h2>
         </div>
 
         <div className={styles.filterContainer}>

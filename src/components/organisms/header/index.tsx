@@ -1,14 +1,15 @@
 import Image from "next/image";
 import styles from "./header.module.css";
 import { GradientButton, OutlinedButton } from "@/components/atoms/button";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.headerContainer}>
-        <a href="/">
+        <Link href="/">
           <Image src="/logo.webp" alt="" width={182} height={36} />
-        </a>
+        </Link>
 
         <OutlinedButton
           icon={<Image src="/search.svg" alt="" width={20} height={20} />}
