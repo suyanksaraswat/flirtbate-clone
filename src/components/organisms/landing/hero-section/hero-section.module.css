@@ -18,6 +18,7 @@
 
     .heroCover {
       max-width: 100%;
+      max-height: fit-content;
     }
   }
 
@@ -45,5 +46,28 @@
 @media (max-width: 768px) {
   .heroSectionContainer {
     flex-direction: column;
+  }
+
+  .leftSection {
+    padding-top: var(--spacing-12)
+  }
+
+  .heading {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .subHeading {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .actionContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .heroCoverContainer {
+    padding-top: 0 !important;
   }
 }

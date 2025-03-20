@@ -41,7 +41,20 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .modelsContainer {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
 @media (max-width: 768px) {
+  .modelsContainer {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+
+@media (max-width: 480px) {
   .modelsContainer {
     grid-template-columns: repeat(1, 1fr) !important;
   }

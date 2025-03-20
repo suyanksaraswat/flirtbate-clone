@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className={styles.heroSectionContainer}>
         <div className={styles.leftSection}>
           <div className={styles.leftSectionTextContainer}>
-            <h1>
+            <h1 className={styles.heading}>
               <span className={styles.highlightText}>#1 Adult Video</span> Chat
               Platform
             </h1>
@@ -19,13 +19,19 @@ export default function HeroSection() {
             </h2>
           </div>
 
-          <div>
+          <div className={styles.actionContainer}>
             <FilledButton>Explore Models</FilledButton>
           </div>
         </div>
 
         <div className={styles.heroCoverContainer}>
-          <Image src="/hero-cover.webp" alt="" width={462} height={451} className={styles.heroCover} />
+          <Image
+            src="/hero-cover.webp"
+            alt=""
+            width={462}
+            height={451}
+            className={styles.heroCover}
+          />
         </div>
       </div>
     </div>
