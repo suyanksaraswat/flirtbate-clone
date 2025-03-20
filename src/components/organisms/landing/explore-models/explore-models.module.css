@@ -40,3 +40,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .modelsContainer {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}

@@ -86,3 +86,13 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .footerActionsContainer {
+    flex-direction: column;
+  }
+
+  .linksContainer {
+    flex-direction: column;
+  }
+}

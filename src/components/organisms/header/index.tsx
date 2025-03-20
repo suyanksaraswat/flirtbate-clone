@@ -27,6 +27,14 @@ export default function Header() {
           Search
         </OutlinedButton>
 
+        <Image
+          src="/search.svg"
+          alt=""
+          width={20}
+          height={20}
+          className={styles.searchBarIcon}
+        />
+
         <Select
           value={lang}
           placeholder="Lang"
@@ -43,7 +51,7 @@ export default function Header() {
           Login
         </OutlinedButton>
 
-        <GradientButton>
+        <GradientButton className={styles.freeCallButton}>
           <Image src="/free-credit-icon.png" alt="" width={24} height={30} />
           Get 1 minute of Free Call
         </GradientButton>

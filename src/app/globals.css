@@ -46,6 +46,11 @@
   --rounded-sm: calc(var(--spacing-unit) * 1); /* 4px */
   --rounded-md: calc(var(--spacing-unit) * 2); /* 8px */
   --rounded-lg: calc(var(--spacing-unit) * 3); /* 12px */
+
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
 }
 
 body {

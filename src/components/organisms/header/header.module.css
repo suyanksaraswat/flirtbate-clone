@@ -11,6 +11,7 @@
 
   .headerContainer {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: var(--spacing-9);
     padding: var(--spacing-3) var(--spacing-2_5);
@@ -20,6 +21,11 @@
 
   .searchBar {
     width: 100%;
+  }
+
+  .searchBarIcon {
+    display: none;
+    cursor: pointer;
   }
 
   .searchText {
@@ -34,6 +40,31 @@
 
       &:hover {
         border: 1px solid var(--white-soft-border);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .searchBar {
+    display: none !important;
+  }
+
+  .searchBarIcon {
+    display: block !important;
+  }
+
+  .freeCallButton {
+    display: none !important;
+  }
+
+  .langSelect {
+    > div {
+      padding: 0 !important;
+      border: none !important;
+
+      &:hover {
+        border: none !important;
       }
     }
   }

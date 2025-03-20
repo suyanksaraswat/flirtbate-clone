@@ -12,3 +12,9 @@
     color: rgb(121, 224, 40);
   }
 }
+
+@media (max-width: 768px) {
+  .filterContainer {
+    flex-direction: column;
+  }
+}

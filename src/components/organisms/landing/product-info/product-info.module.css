@@ -76,3 +76,9 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .productInfoContent {
+    flex-direction: column;
+  }
+}
