@@ -8,22 +8,33 @@
   background-color: var(--header-bg);
   display: flex;
   justify-content: center;
-}
 
-.headerContainer {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-9);
-  padding: var(--spacing-3) var(--spacing-2_5);
-  max-width: var(--max-width);
-  width: 100%;
-}
+  .headerContainer {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-9);
+    padding: var(--spacing-3) var(--spacing-2_5);
+    max-width: var(--max-width);
+    width: 100%;
+  }
 
-.searchBar {
-  width: 100%;
-}
+  .searchBar {
+    width: 100%;
+  }
 
-.searchText {
-  width: 100%;
-  text-align: left;
+  .searchText {
+    width: 100%;
+    justify-content: left !important;
+  }
+
+  .langSelect {
+    > div {
+      background-color: var(--header-bg) !important;
+      border: 1px solid var(--white-soft-border);
+
+      &:hover {
+        border: 1px solid var(--white-soft-border);
+      }
+    }
+  }
 }

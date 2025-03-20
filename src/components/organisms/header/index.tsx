@@ -1,9 +1,17 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./header.module.css";
 import { GradientButton, OutlinedButton } from "@/components/atoms/button";
 import Link from "next/link";
+import Select from "@/components/atoms/select";
+import { languagesList } from "@/utils/constants";
+import { useState } from "react";
+import { FaFontAwesomeFlag } from "react-icons/fa";
 
 export default function Header() {
+  const [lang, setLang] = useState<string | null>(languagesList[0]?.value);
+
   return (
     <header className={styles.header}>
       <div className={styles.headerContainer}>
@@ -19,11 +27,15 @@ export default function Header() {
           Search
         </OutlinedButton>
 
-        <OutlinedButton
-          icon={<Image src="/loginCircle.svg" alt="" width={20} height={20} />}
-        >
-          Login
-        </OutlinedButton>
+        <Select
+          value={lang}
+          placeholder="Lang"
+          options={languagesList}
+          onChange={(o) => setLang(o?.value || null)}
+          className={styles.langSelect}
+          icon={<FaFontAwesomeFlag />}
+          disableClear
+        />
 
         <OutlinedButton
           icon={<Image src="/loginCircle.svg" alt="" width={20} height={20} />}

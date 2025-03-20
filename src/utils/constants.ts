@@ -221,3 +221,14 @@ export const modelsList = [
     rate: "30 credits/min",
   },
 ];
+
+export const languagesList = [
+  {
+    label: "ENG",
+    value: "english",
+  },
+  {
+    label: "ESP",
+    value: "spanish",
+  },
+];

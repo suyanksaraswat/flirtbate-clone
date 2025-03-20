@@ -1,3 +1,5 @@
+"use client";
+
 import { ReactNode, useEffect, useRef, useState } from "react";
 import styles from "./select.module.css";
 import { FaAngleUp, FaAngleDown } from "react-icons/fa6";
@@ -10,6 +12,7 @@ interface Props {
   onChange: (val: { label: string; value: string } | null) => void;
   options: { label: string; value: string }[];
   className?: string;
+  disableClear?: boolean;
 }
 
 function Select({
@@ -19,6 +22,7 @@ function Select({
   onChange,
   options,
   className,
+  disableClear,
 }: Props) {
   const selectRef = useRef<HTMLDivElement>(null);
 
@@ -59,7 +63,7 @@ function Select({
         </div>
 
         <div className={styles.selectBoxText}>
-          {findValueInOpt ? (
+          {!disableClear && findValueInOpt ? (
             <MdClear
               onClick={(e) => {
                 e.stopPropagation();
