@@ -1,0 +1,41 @@
+.inputBox {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-2);
+  align-items: center;
+  cursor: pointer;
+  padding: var(--spacing-3) var(--spacing-4);
+  background-color: var(--dark-grey);
+  color: var(--white-muted);
+  border-radius: var(--rounded-md);
+  border: 2px solid var(--dark-grey);
+}
+
+.inputBox:hover {
+  border: 2px solid var(--primary-bg);
+}
+
+.inputBoxText {
+  display: flex;
+  gap: var(--spacing-3);
+  align-items: center;
+  width: 100%;
+}
+
+.inputField {
+  background-color: transparent;
+  border: none !important;
+  box-shadow: none !important;
+  color: var(--white-muted);
+  width: 100%;
+  outline: none;
+  font-size: var(--font-md);
+}
+
+.labelContainer {
+  margin-bottom: var(--spacing-1);
+
+  .labelText {
+    color: var(--white-muted);
+  }
+}

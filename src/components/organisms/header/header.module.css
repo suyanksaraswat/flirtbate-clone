@@ -32,6 +32,15 @@
     width: 100%;
     justify-content: left !important;
   }
+
+  .langSelect > div {
+    background-color: var(--header-bg) !important;
+    border: 1px solid var(--white-soft-border);
+  }
+
+  .langSelect > div:hover {
+    border: 1px solid var(--white-soft-border);
+  }
 }
 
 @media (max-width: 768px) {
@@ -54,5 +63,18 @@
 
   .headerContainer {
     gap: var(--spacing-2_5) !important;
+  }
+
+  .langSelect > div {
+    padding: 0 !important;
+    border: none !important;
+  }
+
+  .langSelect > div > div:first-child > svg:first-child {
+    display: none;
+  }
+
+  .langSelect > div > div:first-child &:hover {
+    border: none !important;
   }
 }
