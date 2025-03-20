@@ -52,7 +52,7 @@ function Select({
       className={`${styles.selectContainer} ${className ? className : ""}`}
     >
       <div
-        id="#selectBox"
+        id="selectBox"
         className={`${styles.selectBox} ${
           showOptions ? styles.activeSelectBox : ""
         }`}

@@ -16,7 +16,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.headerContainer}>
         <Link href="/">
-          <Image src="/logo.webp" alt="" width={182} height={36} />
+          <Image src="/logo.webp" alt="" width={182} height={36} className={styles.logo} />
         </Link>
 
         <OutlinedButton

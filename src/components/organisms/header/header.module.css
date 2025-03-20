@@ -32,17 +32,6 @@
     width: 100%;
     justify-content: left !important;
   }
-
-  .langSelect {
-    #selectBox {
-      background-color: var(--header-bg) !important;
-      border: 1px solid var(--white-soft-border);
-
-      &:hover {
-        border: 1px solid var(--white-soft-border);
-      }
-    }
-  }
 }
 
 @media (max-width: 768px) {
@@ -58,14 +47,12 @@
     display: none !important;
   }
 
-  .langSelect {
-    #selectBox {
-      padding: 0 !important;
-      border: none !important;
+  .logo {
+    width: 120px;
+    height: auto;
+  }
 
-      &:hover {
-        border: none !important;
-      }
-    }
+  .headerContainer {
+    gap: var(--spacing-2_5) !important;
   }
 }
