@@ -26,7 +26,13 @@ export default function ModelCard({
       <div className={styles.imageContainer}>
         {highlyAvailable ? (
           <button className={styles.highlyAvailableContainer}>
-            <Image src="/fire.gif" alt="" width={42} height={57} />
+            <Image
+              src="/fire.gif"
+              alt=""
+              width={42}
+              height={57}
+              className={styles.highlyAvailableImg}
+            />
             Highly available
           </button>
         ) : null}

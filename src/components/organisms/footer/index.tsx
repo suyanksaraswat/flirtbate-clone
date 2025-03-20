@@ -88,7 +88,9 @@ export default function Footer() {
         </div>
 
         <div className={styles.rightsContainer}>
-          <p className="small-text">© 2025 Flirtbate, All Rights Reserved</p>
+          <p className={`${styles.rightsContainerText} small-text`}>
+            © 2025 Flirtbate, All Rights Reserved
+          </p>
         </div>
       </div>
     </div>
