@@ -28,6 +28,7 @@
   --spacing-2: calc(var(--spacing-unit) * 2); /* 8px */
   --spacing-2_5: calc(var(--spacing-unit) * 2.5); /* 8px */
   --spacing-3: calc(var(--spacing-unit) * 3); /* 12px */
+  --spacing-3_5: calc(var(--spacing-unit) * 3.5); /* 14px */
   --spacing-4: calc(var(--spacing-unit) * 4); /* 16px */
   --spacing-5: calc(var(--spacing-unit) * 5); /* 20px */
   --spacing-6: calc(var(--spacing-unit) * 6); /* 24px */

@@ -32,22 +32,25 @@ export const modelsList = [
     age: 25,
     language: "Español",
     rate: "30 credits/min",
+    highlyAvailable: true,
   },
   {
     coverImage:
-      "https://flirtbate-profile-media.ams3.cdn.digitaloceanspaces.com/el4cqo0mctp_1742082101357.webp",
+      "https://flirtbate-profile-media.ams3.cdn.digitaloceanspaces.com/4n95d5egf08_1741737657087.webp",
     username: "Jade",
     age: 25,
     language: "Brazil, English",
     rate: "20 credits/min",
+    highlyAvailable: true,
   },
   {
     coverImage:
-      "https://flirtbate-profile-media.ams3.cdn.digitaloceanspaces.com/el4cqo0mctp_1742082101357.webp",
+      "https://flirtbate-profile-media.ams3.cdn.digitaloceanspaces.com/wf6l52z7e4k_1733244069735.PNG",
     username: "Thick sweet",
     age: 25,
     language: "English",
     rate: "15 credits/min",
+    highlyAvailable: true,
   },
   {
     coverImage:

@@ -16,7 +16,7 @@
   background-color: var(--primary-bg);
   border: 1px solid var(--white-soft-border);
   border-radius: var(--rounded-md);
-  padding: var(--spacing-3) var(--spacing-4);
+  padding: var(--spacing-3_5) var(--spacing-7);
   display: flex;
   justify-content: center;
   align-items: center;

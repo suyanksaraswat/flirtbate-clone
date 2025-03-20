@@ -1,0 +1,19 @@
+.onlineStatusContainer {
+  display: flex;
+  width: 12px;
+  height: 12px;
+  border: 1px rgba(121, 224, 40, 0.32);
+  border-radius: 50%;
+  background-color: rgba(121, 224, 40, 0.32);
+
+  .onlineStatus {
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgb(121, 224, 40);
+    position: relative;
+    right: -2px;
+    top: 2px;
+    border-radius: 50%;
+    background-color: rgb(121, 224, 40);
+  }
+}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/organisms/header";
+import Footer from "@/components/organisms/footer";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={`${manrope.variable}`}>
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
