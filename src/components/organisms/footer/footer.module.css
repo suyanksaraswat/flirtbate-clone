@@ -50,7 +50,7 @@
       flex-direction: column;
       gap: 8px;
 
-      p {
+      .subtext {
         color: rgb(183, 181, 185);
       }
     }
@@ -70,7 +70,7 @@
           margin-bottom: var(--spacing-1);
         }
 
-        a {
+        .linkText {
           color: rgb(183, 181, 185);
         }
       }

@@ -28,7 +28,7 @@ export default function Footer() {
             </Link>
 
             <div>
-              <p className="small-text">
+              <p className={`${styles.subtext} small-text`}>
                 Instant connections, lasting memories
               </p>
             </div>
@@ -40,19 +40,19 @@ export default function Footer() {
                 <p className="small-text">MENU</p>
               </div>
 
-              <Link href={""} className="small-text">
+              <Link href={""} className={`${styles.linkText} small-text`}>
                 Home
               </Link>
 
-              <Link href={""} className="small-text">
+              <Link href={""} className={`${styles.linkText} small-text`}>
                 FAQs
               </Link>
 
-              <Link href={""} className="small-text">
+              <Link href={""} className={`${styles.linkText} small-text`}>
                 Sign up
               </Link>
 
-              <Link href={""} className="small-text">
+              <Link href={""} className={`${styles.linkText} small-text`}>
                 LOGIN
               </Link>
             </div>
@@ -62,15 +62,15 @@ export default function Footer() {
                 <p className="small-text">RESOURCES</p>
               </div>
 
-              <Link href={""} className="small-text">
+              <Link href={""} className={`${styles.linkText} small-text`}>
                 Privacy statement
               </Link>
 
-              <Link href={""} className="small-text">
+              <Link href={""} className={`${styles.linkText} small-text`}>
                 Cookie statement
               </Link>
 
-              <Link href={""} className="small-text">
+              <Link href={""} className={`${styles.linkText} small-text`}>
                 Terms and conditions
               </Link>
             </div>
@@ -80,7 +80,7 @@ export default function Footer() {
                 <p className="small-text">CATEGORY</p>
               </div>
 
-              <Link href={""} className="small-text">
+              <Link href={""} className={`${styles.linkText} small-text`}>
                 Cam Live
               </Link>
             </div>

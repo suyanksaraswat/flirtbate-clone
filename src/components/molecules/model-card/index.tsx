@@ -1,7 +1,6 @@
 import Image from "next/image";
 import styles from "./model-card.module.css";
 import { OnlineStatus } from "@/components/atoms/online-status";
-import { GradientButton } from "@/components/atoms/button";
 import { FaRegHeart } from "react-icons/fa6";
 
 interface Props {

@@ -25,7 +25,7 @@ export default function HeroSection() {
         </div>
 
         <div className={styles.heroCoverContainer}>
-          <Image src="/hero-cover.webp" alt="" width={462} height={451} />
+          <Image src="/hero-cover.webp" alt="" width={462} height={451} className={styles.heroCover} />
         </div>
       </div>
     </div>

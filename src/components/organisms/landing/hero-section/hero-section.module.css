@@ -16,7 +16,7 @@
   .heroCoverContainer {
     padding-top: var(--spacing-21);
 
-    img {
+    .heroCover {
       max-width: 100%;
     }
   }

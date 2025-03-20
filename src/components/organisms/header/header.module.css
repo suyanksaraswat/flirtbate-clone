@@ -34,7 +34,7 @@
   }
 
   .langSelect {
-    > div {
+    #selectBox {
       background-color: var(--header-bg) !important;
       border: 1px solid var(--white-soft-border);
 
@@ -59,7 +59,7 @@
   }
 
   .langSelect {
-    > div {
+    #selectBox {
       padding: 0 !important;
       border: none !important;
 

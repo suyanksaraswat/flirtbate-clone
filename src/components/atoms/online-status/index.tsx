@@ -1,8 +1,6 @@
 import styles from "./online-status.module.css";
 
-interface Props {}
-
-export const OnlineStatus = ({}: Props) => {
+export const OnlineStatus = () => {
   return (
     <div className={styles.onlineStatusContainer}>
       <div className={styles.onlineStatus}></div>
