@@ -1,0 +1,75 @@
+.searchSidebarBackdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2000;
+
+  .searchSidebarBg {
+    width: 100%;
+    max-width: 528px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(30, 8, 21);
+    z-index: 2000;
+
+    .searchSidebarHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      border-bottom: 1px solid rgb(35, 32, 39);
+      padding: 20px;
+
+      .title {
+        font-size: 30px;
+        font-weight: 500;
+      }
+
+      .closeIcon {
+        width: 40px;
+        height: 40px;
+        color: rgb(183, 181, 185);
+      }
+    }
+  }
+
+  .filterContainer {
+    padding: 20px;
+
+    .filterLabelContainer {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .contentContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-2);
+
+    .radioButtonContainer {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      .radioLabel {
+        color: rgb(183, 181, 185);
+      }
+
+      .radioInactive {
+        color: rgb(183, 181, 185);
+        cursor: pointer;
+      }
+
+      .radioActive {
+        color: var(--primary-bg);
+        cursor: pointer;
+      }
+    }
+  }
+}

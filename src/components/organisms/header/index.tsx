@@ -9,13 +9,20 @@ import { languagesList } from "@/utils/constants";
 import { useState } from "react";
 import { FaFontAwesomeFlag } from "react-icons/fa";
 import Login from "@/components/molecules/login";
+import SearchSidebar from "@/components/molecules/search-sidebar";
 
 export default function Header() {
   const [lang, setLang] = useState<string | null>(languagesList[0]?.value);
   const [loginModal, setLoginModal] = useState(false);
+  const [searchSidebarDrawer, setSearchSidebarDrawer] = useState(false);
 
   return (
     <>
+      <SearchSidebar
+        open={searchSidebarDrawer}
+        onClose={() => setSearchSidebarDrawer(false)}
+      />
+
       <Login open={loginModal} onClose={() => setLoginModal(false)} />
 
       <header className={styles.header}>
@@ -34,6 +41,7 @@ export default function Header() {
             icon={<Image src="/search.svg" alt="" width={20} height={20} />}
             className={styles.searchBar}
             textClassName={styles.searchText}
+            onClick={() => setSearchSidebarDrawer(true)}
           >
             Search
           </OutlinedButton>
@@ -44,6 +52,7 @@ export default function Header() {
             width={20}
             height={20}
             className={styles.searchBarIcon}
+            onClick={() => setSearchSidebarDrawer(true)}
           />
 
           <Select
