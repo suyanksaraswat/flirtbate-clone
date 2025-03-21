@@ -60,7 +60,7 @@ export default function Login({ open, onClose }: Props) {
             </p>
 
             <p>
-              Don't have an account? <b>Join for free now!</b>
+              Don&apos;t have an account? <b>Join for free now!</b>
             </p>
           </div>
         </div>
