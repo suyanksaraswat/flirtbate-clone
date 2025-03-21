@@ -11,6 +11,13 @@ export default function HeroSection() {
             <h1 className={styles.heading}>
               <span className={styles.highlightText}>#1 Adult Video</span> Chat
               Platform
+              <Image
+                src="https://flirtbate.com/images/home/line-vector.svg"
+                alt=""
+                className={styles.headingUnderlineImg}
+                width={302}
+                height={32}
+              />
             </h1>
 
             <h2 className={styles.subHeading}>

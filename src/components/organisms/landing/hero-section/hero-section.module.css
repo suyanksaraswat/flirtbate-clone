@@ -26,6 +26,16 @@
     color: var(--yellow-bright);
   }
 
+  .heading {
+    position: relative;
+
+    .headingUnderlineImg {
+      position: absolute;
+      left: 0;
+      bottom: -30%;
+    }
+  }
+
   .subHeading {
     font-weight: 300;
   }
@@ -49,12 +59,16 @@
   }
 
   .leftSection {
-    padding-top: var(--spacing-12)
+    padding-top: var(--spacing-12);
   }
 
   .heading {
     font-size: 26px;
     text-align: center;
+
+    .headingUnderlineImg {
+      bottom: -60% !important;
+    }
   }
 
   .subHeading {
@@ -69,5 +83,11 @@
 
   .heroCoverContainer {
     padding-top: 0 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .headingUnderlineImg {
+    display: none;
   }
 }
