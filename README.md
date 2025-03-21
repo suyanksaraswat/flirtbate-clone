@@ -10,7 +10,7 @@ As mentioned in requirement, I have used custom CSS throughout the app.
 - ✅ Landing Page
 - ✅ Search Drawer
 - ✅ Login Modal
-- ✅ Atomic Architecture to make app scalabale
+- ✅ Atomic Architecture to make app scalable
 - ✅ Every component is written from scratch with custom CSS
 
 ## Installation
