@@ -30,9 +30,18 @@ export default function SearchSidebar({ open, onClose }: Props) {
     [x: string]: string;
   } | null>(null);
 
+  const handleBackdropClick = (event: React.MouseEvent) => {
+    if (event.target === event.currentTarget) {
+      onClose();
+    }
+  };
+
   return open ? (
-    <div className={styles.searchSidebarBackdrop}>
-      <div className={styles.searchSidebarBg}>
+    <div className={styles.searchSidebarBackdrop} onClick={handleBackdropClick}>
+      <div
+        className={styles.searchSidebarBg}
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className={styles.searchSidebarHeader}>
           <h1 className={styles.title}>Search filter</h1>
 
